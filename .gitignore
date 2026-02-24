@@ -1,0 +1,7 @@
+.cursor/
+__pycache__/
+.venv/
+.uv/
+.env
+.env.*
+.DS_Store

@@ -32,13 +32,13 @@ For each challenge you want to play:
    - Click **Add Server** (or equivalent).
    - **Server name:** e.g. `Challenge 1` (use a different name per challenge if you run several).
    - **Connection type:** **STDIO**.
-   - **Command:** (replace `<path>` with the absolute path to your repo, e.g. `/Users/you/ship-fast-regret-faster`):
+   - **Command:** (replace `<path>` with the absolute path to your repo, e.g. `/Users/you/mcp-ctf`):
 
    | Challenge | Command |
    |-----------|--------|
-   | Challenge 1 | `uv --directory <path>/ship-fast-regret-faster/break/01-oops-that-was-private run challenge.py` |
-   | Challenge 2 | `uv --directory <path>/ship-fast-regret-faster/break/02-deputy-in-the-middle run challenge.py` |
-   | Challenge 3 | `uv --directory <path>/ship-fast-regret-faster/break/03-looks-legit-to-me run challenge.py` |
+   | Challenge 1 | `uv --directory <path>/mcp-ctf/01-oops-that-was-private run challenge.py` |
+   | Challenge 2 | `uv --directory <path>/mcp-ctf/02-deputy-in-the-middle run challenge.py` |
+   | Challenge 3 | `uv --directory <path>/mcp-ctf/03-looks-legit-to-me run challenge.py` |
 
    Example on macOS/Linux (Challenge 1):
 

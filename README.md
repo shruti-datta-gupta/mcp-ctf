@@ -40,12 +40,6 @@ For each challenge you want to play:
    | Challenge 2 | `uv --directory <path>/mcp-ctf/02-deputy-in-the-middle run challenge.py` |
    | Challenge 3 | `uv --directory <path>/mcp-ctf/03-looks-legit-to-me run challenge.py` |
 
-   Example on macOS/Linux (Challenge 1):
-
-   ```text
-   uv --directory /Users/you/ship-fast-regret-faster/break/01-oops-that-was-private run challenge.py
-   ```
-
 2. Click **Add server**.
 
 3. **Connect** to the server (e.g. click **Connect** or open the server you added).
@@ -60,13 +54,13 @@ For each challenge you want to play:
 
 Track your progress by checking off the challenges you’ve completed:
 
-- [ ] **Challenge 1 — Secret exposure (flight booking)**  
+- [ ] **Challenge 1 — Oops, that was private**  
   `01-oops-that-was-private` — Discover an internal coupon from a flight booking server.
 
-- [ ] **Challenge 2 — Confused Deputy (authorization mismatch)**  
+- [ ] **Challenge 2 — Deputy in the middle**  
   `02-deputy-in-the-middle` — Explore how the server decides who can do what, then use that to retrieve the flag.
 
-- [ ] **Challenge 3 — Tool poisoning (metadata)**  
-  `03-looks-legit-to-me` — Get the server to reveal the internal report by triggering hidden instructions in a tool’s description.
+- [ ] **Challenge 3 — Looks legit to me**  
+  `03-looks-legit-to-me` — Get the server to reveal an internal report by triggering hidden instructions in a tool’s description.
 
 ---

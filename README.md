@@ -29,16 +29,20 @@ Standalone MCP challenge servers you can run locally and connect to with **MCPJa
 For each challenge you want to play:
 
 1. **Add your server** in MCPJam:
-   - Click **Add Server** (or equivalent).
+   - Click **Add Server**.
    - **Server name:** e.g. `Challenge 1` (use a different name per challenge if you run several).
-   - **Connection type:** **STDIO**.
-   - **Command:** (replace `<path>` with the absolute path to your repo, e.g. `/Users/you/mcp-ctf`):
+   - **Connection type:** `STDIO`.
+   - **Command:** (replace `<path>` with the absolute path to your repo, e.g. `/Users/you/ship-fast-regret-faster`): <br>
 
    | Challenge | Command |
    |-----------|--------|
-   | Challenge 1 | `uv --directory <path>/mcp-ctf/01-oops-that-was-private run challenge.py` |
-   | Challenge 2 | `uv --directory <path>/mcp-ctf/02-deputy-in-the-middle run challenge.py` |
-   | Challenge 3 | `uv --directory <path>/mcp-ctf/03-looks-legit-to-me run challenge.py` |
+   | 01 Oops that was private | `uv --directory <path>/break/01-oops-that-was-private run challenge.py` |
+   | 02 Deputy in the middle | `uv --directory <path>/break/02-deputy-in-the-middle run challenge.py` |
+   | 03 Looks legit to me | `uv --directory <path>/break/03-looks-legit-to-me run challenge.py` |
+   | 04 Name your poison | `uv --directory <path>/break/04-name-your-poison run challenge.py` |
+   | 05 Behind the curtain | `uv --directory <path>/break/05-behind-the-curtain run challenge.py` |
+   | 06 Forward thinking | `uv --directory <path>/break/06-forward-thinking run challenge.py` |
+
 
 2. Click **Add server**.
 
@@ -62,5 +66,14 @@ Track your progress by checking off the challenges you’ve completed:
 
 - [ ] **Challenge 3 — Looks legit to me**  
   `03-looks-legit-to-me` — Get the server to reveal an internal report by triggering hidden instructions in a tool’s description.
+
+- [ ] **Challenge 4 — Name your poison**  
+  `04-name-your-poison` — When you ask to send a message, more than one tool could answer—what you get back depends which one the server chooses.
+
+- [ ] **Challenge 5 — Behind the curtain**  
+  `05-behind-the-curtain` — The summarizer reads more than the document. Find the format it obeys and how to ask for the rest.
+
+- [ ] **Challenge 6 — Forward thinking**  
+  `06-forward-thinking` — One tool gives you something another tool needs. Piece the steps together to receive the flag.
 
 ---

@@ -6,8 +6,12 @@ Standalone MCP challenge servers you can run locally and connect to with **MCPJa
 
 ## Prerequisites
 
+- MCPJam account (for model access) — [sign up](https://login.mcpjam.com/sign-up)
 - **Node.js** and **npm** (for MCPJam)
 - **uv** (Python package manager) — [install uv](https://docs.astral.sh/uv/getting-started/installation/)
+  ```bash
+  brew install uv
+  ```
 - This repo cloned locally
 
 ---
@@ -18,6 +22,12 @@ Standalone MCP challenge servers you can run locally and connect to with **MCPJa
 
    ```bash
    npx @mcpjam/inspector@latest
+   ```
+
+   Note (macOS): `npx` should be available by default with Node.js. If it is not available, run:
+   ```bash
+   brew update
+   brew install node
    ```
 
 2. MCPJam will open in your browser (or give you a URL). Use it to add and connect to the challenge servers below.
